@@ -1,0 +1,12 @@
+com\expenses\controllers\ExpenseController.class
+com\expenses\Application.class
+com\expenses\services\ExpenseService.class
+com\expenses\utils\HttpUtil.class
+com\expenses\controllers\ExceptionController.class
+com\expenses\services\SimpleService.class
+com\expenses\entities\enums\Currency.class
+com\expenses\services\RatesService.class
+com\expenses\entities\Expense.class
+com\expenses\repositories\ExpenseRepository.class
+com\expenses\dto\TotalDTO.class
+com\expenses\utils\JsonUtil.class

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.expenses.controllers.ExpenseControllerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.401 s - in com.expenses.controllers.ExpenseControllerTest

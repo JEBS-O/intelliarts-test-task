@@ -1,0 +1,3 @@
+com\expenses\controllers\ExpenseControllerTest.class
+com\expenses\services\RatesServiceTest.class
+com\expenses\services\ExpenseServiceTest.class
