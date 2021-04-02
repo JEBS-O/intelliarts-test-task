@@ -9,8 +9,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.sql.Date;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 @RestController
@@ -23,8 +25,8 @@ public class ExpenseController {
 
     @GetMapping("/expenses")
     public Map<String, List<Expense>> get() {
-        return expenseService.getAll().stream()
-                .collect(Collectors.groupingBy(e -> e.getDate().toString()));
+        return new TreeMap<>(expenseService.getAll().stream()
+                .collect(Collectors.groupingBy(e -> e.getDate().toString())));
     }
 
     @PostMapping("/expenses")

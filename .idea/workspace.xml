@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba459a72-f11c-43f0-9b98-a7c1a69a8e4d" name="Default Changelist" comment="" />
+    <list default="true" id="ba459a72-f11c-43f0-9b98-a7c1a69a8e4d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/expenses/controllers/ExpenseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/expenses/controllers/ExpenseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/expenses/controllers/ExpenseControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/expenses/controllers/ExpenseControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test-application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test-application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/expenses/controllers/ExpenseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/expenses/controllers/ExpenseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/expenses/controllers/ExpenseControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/expenses/controllers/ExpenseControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test-application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test-application.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +62,9 @@
     </expand>
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -69,7 +81,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects/studmistobackend" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -96,11 +108,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in expenses">
+  <component name="RunManager" selected="JUnit.ExpenseControllerTest.getRequestGetAll">
     <configuration name="All in expenses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="expenses" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpenseControllerTest.getRequestGetAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="expenses" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.expenses.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.expenses.controllers" />
+      <option name="MAIN_CLASS_NAME" value="com.expenses.controllers.ExpenseControllerTest" />
+      <option name="METHOD_NAME" value="getRequestGetAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,8 +148,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in expenses" />
+        <item itemvalue="JUnit.ExpenseControllerTest.getRequestGetAll" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.All in expenses" />
       </list>
     </recent_temporary>
   </component>
@@ -136,11 +165,28 @@
       <option name="presentableId" value="Default" />
       <updated>1616433424782</updated>
       <workItem from="1616433429167" duration="832000" />
-      <workItem from="1616435169832" duration="415000" />
+      <workItem from="1616435169832" duration="1015000" />
+      <workItem from="1616484826996" duration="45000" />
+      <workItem from="1617186543456" duration="4912000" />
+      <workItem from="1617343850262" duration="420000" />
+      <workItem from="1617349289125" duration="620000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

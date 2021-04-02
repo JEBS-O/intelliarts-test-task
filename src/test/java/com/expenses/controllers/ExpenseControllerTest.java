@@ -4,6 +4,7 @@ import com.expenses.entities.Expense;
 import com.expenses.entities.enums.Currency;
 import com.expenses.repositories.ExpenseRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.sun.nio.sctp.IllegalReceiveException;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -109,7 +110,8 @@ public class ExpenseControllerTest {
                 .andExpect(jsonPath("$.2021-04-25.[0].product").value("Milk"))
                 .andExpect(jsonPath("$.2021-04-25.[1].product").value("Coffee"))
                 .andExpect(jsonPath("$.2021-03-21.[0].product").value("Bread"))
-                .andExpect(jsonPath("$.2021-03-20.[0].product").value("Bananas"));
+                .andExpect(jsonPath("$.2021-03-20.[0].product").value("Bananas"))
+                .andExpect(content().string("{\"2021-03-20\":[{\"id\":1,\"date\":\"2021-03-20\",\"amount\":10.0,\"currency\":\"EUR\",\"product\":\"Bananas\"}],\"2021-03-21\":[{\"id\":3,\"date\":\"2021-03-21\",\"amount\":6.71,\"currency\":\"USD\",\"product\":\"Bread\"}],\"2021-04-25\":[{\"id\":2,\"date\":\"2021-04-25\",\"amount\":25.2,\"currency\":\"USD\",\"product\":\"Milk\"},{\"id\":4,\"date\":\"2021-04-25\",\"amount\":3.25,\"currency\":\"EUR\",\"product\":\"Coffee\"}]}"));
     }
 
     @Test
